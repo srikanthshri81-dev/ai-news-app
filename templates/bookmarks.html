@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookmarks</title>
+</head>
+
+<body>
+
+<h2>Bookmarked Articles</h2>
+
+{% for b in bookmarks %}
+<p>
+    {{ b }}
+    <a href="/delete_bookmark?title={{ b }}">❌ Remove</a>
+</p>
+{% endfor %}
+
+</body>
+</html>

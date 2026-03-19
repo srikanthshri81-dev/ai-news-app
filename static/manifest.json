@@ -1,0 +1,21 @@
+{
+  "name": "AI News Aggregator",
+  "short_name": "AI News",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141e30",
+  "theme_color": "#141e30",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
